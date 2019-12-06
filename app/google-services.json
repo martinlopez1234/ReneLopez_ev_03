@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "282264368971",
+    "firebase_url": "https://bliblioteca123.firebaseio.com",
+    "project_id": "bliblioteca123",
+    "storage_bucket": "bliblioteca123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282264368971:android:80c8e5a76751454fa1dace",
+        "android_client_info": {
+          "package_name": "chile.maps.biblioteca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282264368971-uv5kpbcvba673mgbqlll573gga8d493m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7pvb8ZJhm5WvOR3HIP13fJwHA3oWIkBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282264368971-uv5kpbcvba673mgbqlll573gga8d493m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

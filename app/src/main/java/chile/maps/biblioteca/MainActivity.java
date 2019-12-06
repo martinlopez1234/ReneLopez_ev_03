@@ -83,7 +83,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+    public  void Maps(View view){
+        Intent i = new Intent(this,MapsActivity.class);
+        startActivity(i);
+    }
 
     public void Home(View v)
     {
@@ -96,4 +99,15 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Location_act.class);
         startActivity(i);
     }
+    public void github(View view){
+        String[] datos = {"Farenheit", "Revival", "El Alquimista","El Poder","Despertar"};
+        Intent i = new Intent(this, Github_act.class);
+        i.putExtra("libross", datos);
+        startActivity(i);
+
+
+
+    }
+
+
 }

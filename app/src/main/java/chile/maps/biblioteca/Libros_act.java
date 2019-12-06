@@ -14,7 +14,7 @@ public class Libros_act extends AppCompatActivity {
     private Spinner spn;
     private TextView tv;
     private EditText et1, et2;
-    private String[] precios = new String[]{"5000", "12000", "25000"};
+    private String[] precios = new String[]{"5000", "12000", "25000","432423"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +64,7 @@ public class Libros_act extends AppCompatActivity {
             +"el precio final es: "+ resultado);
         }
 
-        if(spn.getSelectedItem().equals("Tesla"))
+        if(spn.getSelectedItem().equals("El Alquimista"))
         {
 
             String precioTesla = precios[2];

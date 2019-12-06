@@ -45,29 +45,29 @@ public class Home_act extends AppCompatActivity {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     public void info(View v)
     {
         Intent i = new Intent(this, Info_act.class);
         startActivity(i);
     }
 
+    public void seguridad(View v)
+    {
+        Intent i = new Intent(this, Sec_act.class);
+        startActivity(i);
+    }
+
 
     public void Libros(View view)
     {
-        String[] datos = {"Farenheit", "Revival", "Tesla"};
+        String[] datos = {"Farenheit", "Revival", "El Alquimista","El Poder","Despertar"};
         Intent i = new Intent(this, Libros_act.class);
         i.putExtra("libros", datos);
+        startActivity(i);
+    }
+    public void Base(View view)
+    {
+        Intent i = new Intent(this,BASE_ACT.class);
         startActivity(i);
     }
 

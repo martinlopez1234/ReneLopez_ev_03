@@ -15,7 +15,7 @@ public class Github_act extends AppCompatActivity {
     private Spinner spinner;
     private TextView textView8;
 
-    private String[] precioss = new String[]{"7000", "22000", "45000","88000","156000"};
+    private String[] precioss = new String[]{"7000", "22000", "45000"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -100,9 +100,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void github(View view){
-        String[] datos = {"Farenheit", "Revival", "El Alquimista","El Poder","Despertar"};
+        String[] datos = {"Farenheit","Revival","El Alquimista","El Poder","Despertar"};
         Intent i = new Intent(this, Github_act.class);
         i.putExtra("libross", datos);
+
         startActivity(i);
 
 
